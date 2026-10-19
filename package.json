@@ -1,0 +1,20 @@
+{
+  "name": "dem-bones",
+  "version": "1.0.0",
+  "description": "Dance, skeleton, dance! A Weird Web October 2026 distraction for the theme 'Skeleton'.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Dan Q",
+    "email": "dem-bones@danq.me",
+    "url": "https://danq.me/"
+  },
+  "license": "Unlicense",
+  "type": "module",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.22.0"
+  }
+}

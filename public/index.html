@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dem Bones!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="description" content="The hand bone's connected to the cellphone. The cellphone's connected to the website. The website's connected to the puppet. Now shake 'dem skeleton bones!">
+  <link rel="canonical" href="https://skelly.monster/">
+  <meta property="og:image" content="https://skelly.monster/dem-bones-og.png">
+  <meta property="og:url" content="https://skelly.monster/">
+  <meta name="theme-color" content="#8f5100">
+  <meta property="fediverse:creator" content="@dan@danq.me">
+  <link rel="preload" as="fetch" href="https://octothorp.es/?uri=https://skelly.monster/">
+  <link rel="octo:octothorpes" href="weirdweboctober" >
+  <link rel="octo:octothorpes" href="Skeletons" >
+</head>
+<body>
+  <main id="desktop" hidden>
+    <img id="qr" alt="QR code for the phone link" width="160" height="160">
+    <p id="desktop-status" class="status">Scan the QR code.</p>
+    <svg id="dem-theatres" viewBox="210 0 380 520" role="img" aria-label="A skeleton puppet on strings">
+      <g data-part="lUpperLeg">
+        <rect x="-6" y="0" width="12" height="90" rx="6"/><circle r="8"/><circle cy="90" r="8"/>
+      </g>
+      <g data-part="lLowerLeg">
+        <ellipse cx="8" cy="97" rx="18" ry="7"/>
+        <rect x="-5" y="0" width="10" height="90" rx="5"/><circle cy="90" r="7"/>
+      </g>
+      <g data-part="rUpperLeg">
+        <rect x="-6" y="0" width="12" height="90" rx="6"/><circle r="8"/><circle cy="90" r="8"/>
+      </g>
+      <g data-part="rLowerLeg">
+        <ellipse cx="-8" cy="97" rx="18" ry="7"/>
+        <rect x="-5" y="0" width="10" height="90" rx="5"/><circle cy="90" r="7"/>
+      </g>
+      <g data-part="ribcage">
+        <rect x="-4" y="0" width="8" height="130" rx="4"/>
+        <ellipse cx="0" cy="50" rx="38" ry="42"/>
+        <path class="line" d="M-34 30 Q0 42 34 30 M-37 48 Q0 60 37 48 M-33 66 Q0 78 33 66"/>
+        <rect x="-5" y="12" width="10" height="56" rx="5"/>
+        <path class="line" d="M-44 12 L-6 6 M44 12 L6 6"/>
+        <path d="M-30 118 Q-34 140 -12 146 L0 136 L12 146 Q34 140 30 118 Q0 108 -30 118 Z"/>
+      </g>
+      <g data-part="head">
+        <rect x="-15" y="46" width="30" height="22" rx="6"/>
+        <ellipse cx="0" cy="30" rx="26" ry="30"/>
+        <circle class="hole" cx="-10" cy="28" r="7"/>
+        <circle class="hole" cx="10" cy="28" r="7"/>
+        <path class="hole" d="M0 38 l-4 8 h8 z"/>
+        <path class="line" d="M-8 59 v8 M0 61 v6 M8 59 v8"/>
+      </g>
+      <g data-part="lUpperArm">
+        <rect x="-5" y="0" width="10" height="70" rx="5"/><circle r="7"/><circle cy="70" r="7"/>
+      </g>
+      <g data-part="lLowerArm">
+        <rect x="-4" y="0" width="8" height="70" rx="4"/>
+        <ellipse cx="0" cy="82" rx="9" ry="11"/>
+      </g>
+      <g data-part="rUpperArm">
+        <rect x="-5" y="0" width="10" height="70" rx="5"/><circle r="7"/><circle cy="70" r="7"/>
+      </g>
+      <g data-part="rLowerArm">
+        <rect x="-4" y="0" width="8" height="70" rx="4"/>
+        <ellipse cx="0" cy="82" rx="9" ry="11"/>
+      </g>
+    </svg>
+
+    <button aria-label="About" popovertarget="about" id="about-button"><svg viewBox="-19 0 124 124"><path fill="#fff" d="M67 7Q55 0 41 1 30 0 19 4 9 8 4 16l-3 5q0 4 3 5t4-2l1-1 4-5 9-5q9-3 22-2 9 0 16 4 10 6 13 13 4 12-5 19l-11 7-5 3-4 2q-13 6-19 18l-2 6a12 12 0 0 0 2 10l3 1 3-1 5-8q6-9 18-15l14-9 8-8q8-10 5-23-3-15-18-23M30 123h2a13 13 0 0 0 12-9 13 13 0 0 0-3-11 10 10 0 0 0-8-4l-6 2a12 12 0 0 0-6 14q1 8 9 8m1-17 1 1 1 2 1 3-1 2h-3q-1 1-1-3t2-5"/></svg></button>
+    <aside id="about" popover>
+      <h1>Dem Bones!</h1>
+      <h2>How to play</h2>
+      <p>
+        Open this page on your computer. Then scan the QR code on your phone. Move the phone like the controls
+        of a marionette puppet: the skeleton on the screen will follow your movements (spooky!).
+      </p>
+      <p>
+        If the controls seem "off", hold your phone flat while you press the "Recalibrate" button. Normally, you should be able to...
+      </p>
+      <ul>
+        <li>↕️ Tip forwards and backwards to control the arms</li>
+        <li>↔️ Twist side to side to control the legs</li>
+        <li>🔄 Turn on the spot to move from side to side</li>
+      </ul>
+      <hr>
+      <h2>What is this?</h2>
+      <p>
+        A silly game made by
+        <a href="https://danq.me/"><svg class="dan-q" aria-label="Dan Q" height="138.24" role="img" viewBox="0 0 134.81 36.58" width="509.52">
+        <g stroke-width=".26">
+          <path d="M71.93 13.16v23.16h-7.01V.25h5.59l18.64 23.78V.3h7.01v36.02h-5.84zM0 36.32V.25h13.1q5.9 0 9.86 2.44 3.96 2.39 5.94 6.5 1.99 4.07 1.99 9.05 0 5.48-2.19 9.55t-6.2 6.3q-3.96 2.23-9.4 2.23zm23.82-18.08q0-3.5-1.27-6.15-1.27-2.7-3.65-4.17Q16.5 6.4 13.1 6.4H7.02v23.77h6.1q3.45 0 5.84-1.52 2.39-1.57 3.6-4.27 1.27-2.74 1.27-6.14zM42.18.25h7.12l13.25 36.07h-7.21l-3.35-8.99h-12.6l-3.3 9h-7.22zm8.54 22.15L45.74 7.52 40.56 22.4z" style="fill: #000;"></path>
+          <path d="M106.09 4.02a19.72 19.72 0 00-5.35 7.4 18.68 18.68 0 00-.05 13.61 18.2 18.2 0 009.1 10 16.79 16.79 0 007.2 1.55 16.56 16.56 0 009.13-2.62l2.1 2.36h6.6l-11.89-13.36h-6.6l5.54 6.23-.3.17a9.77 9.77 0 01-4.52 1.02 9.65 9.65 0 01-7.78-3.7 12.36 12.36 0 01-2.03-3.87 14.51 14.51 0 01-.05-8.89 13.15 13.15 0 013.15-5.12z" style="fill: #155a93;"></path>
+          <path d="M117.15 0c-2.57 0-4.94.5-7.11 1.52-1.17.54-2.26 1.2-3.26 1.96L111 8.22a9.5 9.5 0 016.05-2.03c1.62 0 3.08.35 4.37 1.02a9.88 9.88 0 013.3 2.7 11.8 11.8 0 012.08 3.86 13.63 13.63 0 01.05 8.89c-.25.8-.57 1.57-.96 2.3l4.56 5.13a18.3 18.3 0 002.9-18.4 20.14 20.14 0 00-3.55-5.9 17.07 17.07 0 00-5.54-4.22A15.89 15.89 0 00117.15 0z" style="fill: #1d6fb4;"></path>
+        </g></svg></a>
+        for
+        <a href="https://weirdweboctober.website/">Weird Web October</a> 2026's prompt 22:
+        <a href="https://octothorp.es/~/Skeletons">"skeletons"</a>. It's partially inspired by the things I learned implementing
+        a Web + phone based driving game
+        <a href="https://danq.me/2017/04/28/steer/">in 2017</a>.
+      </p>
+      <p>
+        Big thanks to <a href="https://wynns-wonderful-pixel-paradise.neocities.org/backgrounds">Wynn</a> for the background tiles, to
+        <a href="https://electricquaker.fox.q-t-a.uk/">JTA</a> for early feedback, and everybody who said encouraging things about
+        my <a href="https://danq.me/tag/weird-web-october-2026/">earlier efforts</a> this year. Also got to shout out
+        <a href="https://www.pigenpalace.com/dogspinner/">dogspinner</a> whose audio implementation was inspiring.
+      </p>
+      <p>
+        Full <a href="https://github.com/Dan-Q/dem-bones">source code</a> is available. You might also enjoy an
+        accompanying <a href="https://danq.me/2026/10/22/dem-bones/">blog post</a>.
+      </p>
+      <hr>
+      <h2>Troubleshooting</h2>
+      <p>
+        This project was thrown-together quickly and makes use of some Web features that don't yet work in every browser.
+        If you have trouble, try using the latest version of Firefox, Edge or Chrome on your computer and phone.
+      </p>
+    </aside>
+
+    <button aria-label="Fullscreen" id="fullscreen-button" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path class="enter" d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/>
+        <path class="exit" d="M9 4v5H4M15 4v5h5M20 15h-5v5M4 15h5v5"/>
+      </svg>
+    </button>
+  </main>
+
+  <main id="mobile" hidden>
+    <p id="mobile-instructions">Hold your phone flat with the screen facing up, then press <strong>Start</strong>.</p>
+    <p id="mobile-status" class="status" data-status="hidden"></p>
+    <svg id="control" viewBox="-100 -100 200 200" aria-hidden="true">
+      <path class="wood" d="M-16 -82 Q-16 -90 -8 -90 H8 Q16 -90 16 -82 V-16 H82 Q90 -16 90 -8 V8 Q90 16 82 16 H16 V82 Q16 90 8 90 H-8 Q-16 90 -16 82 V16 H-82 Q-90 16 -90 8 V-8 Q-90 -16 -82 -16 H-16 Z"/>
+      <path class="grain" d="M-84 -6 H-26 M26 -7 H70 M-74 6 H-30 M30 5 H84 M-6 -84 V-26 M7 -70 V-30 M-5 30 V74 M6 26 V84"/>
+      <circle class="eye" cx="0" cy="-76" r="5"/>
+      <circle class="eye" cx="76" cy="0" r="5"/>
+      <circle class="eye" cx="0" cy="76" r="5"/>
+      <circle class="eye" cx="-76" cy="0" r="5"/>
+    </svg>
+    <div id="mobile-buttons">
+      <button id="start">Start</button>
+      <button id="strings">Strings</button>
+      <button id="bgcolor">Background</button>
+    </div>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
