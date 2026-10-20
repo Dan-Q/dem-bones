@@ -141,14 +141,14 @@ async function startDesktop() {
    * Status line, desktop version.
    */
   function setStatus(text, dataStatus = '') {
-    status.textContent = text;
+    status.innerHtml = text;
     status.dataset.status = dataStatus;
   }
 
   connect('desktop', roomKey, (msg) => {
     qr.classList.toggle('visible', msg.type === 'status');
     if (msg.type === 'status') {
-      setStatus(msg.mobiles > 0 ? 'Hit "Recalibrate" on your phone.' : 'Scan the QR code.', 'attention');
+      setStatus(msg.mobiles > 0 ? 'Hit "Recalibrate" on your phone.' : 'Scan the QR code<br><span style="font-size: 1rem; color: #fff;">(keep this page open!)</span>', 'attention');
     } else if (msg.type === 'calibrated') {
       setStatus("Tilt your phone to shake 'dem bones!", 'ok');
       puppet.setTilt({ alpha: 0, beta: 0, gamma: 0 });
